@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/birinci_sayfa"
+    android:layout_height="match_parent"
+    tools:context=".beklemeeee">
+
+    <ProgressBar
+        android:id="@+id/donensey"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginBottom="171dp"
+        android:indeterminateTint="@android:color/holo_red_light" />
+
+    <TextView
+        android:id="@+id/ds"
+        android:layout_width="142dp"
+        android:layout_height="116dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="140dp"
+        android:text="HTY"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="315dp"
+        android:layout_height="97dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="294dp"
+        android:text="Please Wait a Minute"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>
+
